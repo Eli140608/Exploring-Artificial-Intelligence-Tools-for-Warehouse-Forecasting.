@@ -1,1 +1,6 @@
 # Exploring-Artificial-Intelligence-Tools-for-Warehouse-Forecasting.
+
+The main objective of this end-of-study project is to design and explore an artificial intelligence-based system, with one part focusing on NER with deep learning and the other on time series forecasting. The project deals with preprocessing and segmentation tasks that influence the performance of forecasting systems. NER was used to sort unstructured data and detect important information, especially ship identifiers, which is crucial given the large amount of unstructured data provided. NER made it easier to generate a suitable database to begin the forecasting part using LSTM and ARIMA models, which have high accuracy.
+
+This report describes the project, its context, and summarizes all the necessary steps taken to complete it. The project utilized Named-entity recognition (NER), Natural Language Processing (NLP), Machine Learning (ML), and Deep Learning (DL) to achieve its objectives.
+According to research, the ARIMA model produces lower error values than the LSTM model in monthly and weekly series, indicating that the ARIMA model is more effective than the LSTM model for monthly and weekly forecasting. However, the error values produced by LSTM were lower than those of ARIMA for daily forecasting in our prediction model, which was the case for us.
